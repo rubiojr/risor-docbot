@@ -1,0 +1,16 @@
+// Example file to be automatically documented with docbot.
+
+// global.function
+func fn1(arg1) {
+}
+
+// @object.constructor(obj)
+func new() {
+  // @object.class
+  obj := {
+  }
+
+  // object.method
+  obj.m1 = func() {
+  }
+}
