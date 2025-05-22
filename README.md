@@ -37,6 +37,9 @@ go build ./cmd/risor-docbot
 ```bash
 export OPENAI_API_KEY=your-api-key
 export OPENAI_ENDPOINT=https://api.openai.com/v1  # optional, defaults to OpenAI's endpoint
+# Or an Azure AI endpoint
+# OPENAI_ENDPOINT=https://your-azure-endpoint.openai.azure.com/openai/deployments/gpt-4.1/chat/completions?api-version=2025-01-01-preview
+
 
 # Basic usage
 ./risor-docbot path/to/your/risor/file.risor
@@ -44,9 +47,6 @@ export OPENAI_ENDPOINT=https://api.openai.com/v1  # optional, defaults to OpenAI
 # Using command line flags
 ./risor-docbot --file path/to/your/risor/file.risor
 ./risor-docbot -f path/to/your/risor/file.risor
-
-# Specify OpenAI model
-./risor-docbot --model gpt-4o --file path/to/your/risor/file.risor
 
 # Enable verbose output
 ./risor-docbot --verbose path/to/your/risor/file.risor

@@ -1,16 +1,29 @@
 // Example file to be automatically documented with docbot.
 
-// global.function
+// Example global function.
+//
+// Parameters:
+// - arg1: Argument to the function.
+//
+// @global.function
 func fn1(arg1) {
 }
 
+// Creates and returns a new object instance.
+//
+// Returns: An object with method m1.
+//
 // @object.constructor(obj)
 func new() {
+  // Example object with one method m1.
+  //
   // @object.class
   obj := {
   }
 
-  // object.method
+  // Example method for the object.
+  //
+  // @object.method
   obj.m1 = func() {
   }
 }

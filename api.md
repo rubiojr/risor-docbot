@@ -2,11 +2,11 @@
 
 ## fn1
 
-This is an example global function.
+Example global function.
 
 ### Parameters
 
-- arg1: Description of argument 1.
+- arg1: Argument to the function.
 
 ### Returns
 
@@ -24,7 +24,7 @@ fn1(arg1)
 
 ### m1
 
-This is an example method for `obj`.
+Example method for the object.
 
 #### Returns
 
