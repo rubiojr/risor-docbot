@@ -57,7 +57,6 @@ The tool will analyze the specified Risor file and update it with appropriate do
 ### Command Line Options
 
 - `--file, -f`: Path to the Risor file to document
-- `--model, -m`: OpenAI model to use (default: "gpt-4o")
 - `--verbose, -v`: Enable verbose output
 - `--help, -h`: Show help
 - `--version, -v`: Show version information
